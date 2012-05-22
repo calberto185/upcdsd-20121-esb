@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.springsource.com/reniec"
+		elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:reniec="http://www.springsource.com/reniec">
+
+	<element name="dniRequest">
+		<complexType>
+			<sequence>
+				<element name="dni" type="reniec:DniType"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+	<complexType name="DniType">
+		<attribute name="dni" type="string"/>
+	</complexType>
+
+	<element name="dniResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta" type="reniec:RespuestaType"/>
+			</sequence>
+		</complexType>
+	</element>
+
+	<complexType name="RespuestaType">
+		<attribute name="nombre" type="string"/>
+		<attribute name="apellido" type="string"/>
+		<attribute name="ciudad" type="string"/>
+	</complexType>
+
+
+</schema>
