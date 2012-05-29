@@ -7,7 +7,6 @@ import org.w3c.dom.Element;
 
 import reniec.Persona;
 import reniec.ReniecConsulta;
-import reniec.internal.ReniecConsultaImpl;
 
 public class ReniecConsultaEndpoint extends AbstractDomPayloadEndpoint {
 
@@ -15,8 +14,8 @@ public class ReniecConsultaEndpoint extends AbstractDomPayloadEndpoint {
 
 	private ReniecConsulta reniecConsulta;
 
-	public ReniecConsultaEndpoint() {
-		this.reniecConsulta = new ReniecConsultaImpl();
+	public ReniecConsultaEndpoint(ReniecConsulta reniecConsulta) {
+		this.reniecConsulta = reniecConsulta;
 	}
 
 	@Override
@@ -36,17 +35,13 @@ public class ReniecConsultaEndpoint extends AbstractDomPayloadEndpoint {
 
 	private Element mapPersona(Document document, Persona persona) {
 		Element personaElement = document.createElementNS(NAMESPACE_URI, "respuesta");
+		personaElement.setAttribute("dni", persona.getDni());
 		personaElement.setAttribute("nombre", persona.getNombre());
-		personaElement.setAttribute("apellido", persona.getApellido());
-		personaElement.setAttribute("ciudad", persona.getCiudad());
-		/*for (Distribution distribution : confirmation.getAccountContribution().getDistributions()) {
-			Element distributionElement = document.createElementNS(NAMESPACE_URI, "distribution");
-			distributionElement.setAttribute("beneficiary", distribution.getBeneficiary());
-			distributionElement.setAttribute("amount", distribution.getAmount().toString());
-			distributionElement.setAttribute("percentage", distribution.getPercentage().toString());
-			distributionElement.setAttribute("totalSavings", distribution.getTotalSavings().toString());
-			confirmationElement.appendChild(distributionElement);
-		}*/
+		personaElement.setAttribute("apellidoPaterno", persona.getApellidoPaterno());
+		personaElement.setAttribute("apellidoMaterno", persona.getApellidoMaterno());
+		personaElement.setAttribute("fechaNacimiento", persona.getFechaNacimiento());
+		personaElement.setAttribute("direccion", persona.getDireccion());
+		personaElement.setAttribute("estadoCivil", persona.getEstadoCivil());
 		return personaElement;
 	}
 }
