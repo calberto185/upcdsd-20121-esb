@@ -1,8 +1,0 @@
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor.Tests\bin\Debug\DSDESBMVCRazor.Tests.dll.config
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor.Tests\bin\Debug\DSDESBMVCRazor.Tests.dll
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor.Tests\bin\Debug\DSDESBMVCRazor.Tests.pdb
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor.Tests\bin\Debug\DSDESBMVCRazor.dll
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor.Tests\bin\Debug\DSDESBMVCRazor.pdb
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor.Tests\obj\Debug\DSDESBMVCRazor.Tests.csprojResolveAssemblyReference.cache
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor.Tests\obj\Debug\DSDESBMVCRazor.Tests.dll
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor.Tests\obj\Debug\DSDESBMVCRazor.Tests.pdb

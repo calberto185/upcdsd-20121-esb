@@ -1,6 +1,0 @@
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor\bin\DSDESBMVCRazor.dll
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor\bin\DSDESBMVCRazor.pdb
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor\bin\EntityFramework.dll
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor\bin\EntityFramework.xml
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor\obj\Debug\DSDESBMVCRazor.dll
-c:\users\uhgo\documents\visual studio 2010\Projects\TrabajoDSDRazor\DSDESBMVCRazor\obj\Debug\DSDESBMVCRazor.pdb
