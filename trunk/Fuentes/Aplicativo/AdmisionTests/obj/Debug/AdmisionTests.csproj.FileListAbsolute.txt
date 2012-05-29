@@ -1,0 +1,7 @@
+c:\users\uhgo\documents\visual studio 2010\Projects\Admision\AdmisionTests\bin\Debug\AdmisionTests.dll
+c:\users\uhgo\documents\visual studio 2010\Projects\Admision\AdmisionTests\bin\Debug\AdmisionTests.pdb
+c:\users\uhgo\documents\visual studio 2010\Projects\Admision\AdmisionTests\bin\Debug\Admision.dll
+c:\users\uhgo\documents\visual studio 2010\Projects\Admision\AdmisionTests\bin\Debug\Admision.pdb
+c:\users\uhgo\documents\visual studio 2010\Projects\Admision\AdmisionTests\obj\Debug\AdmisionTests.csprojResolveAssemblyReference.cache
+c:\users\uhgo\documents\visual studio 2010\Projects\Admision\AdmisionTests\obj\Debug\AdmisionTests.dll
+c:\users\uhgo\documents\visual studio 2010\Projects\Admision\AdmisionTests\obj\Debug\AdmisionTests.pdb

@@ -1,0 +1,7 @@
+c:\users\uhgo\documents\visual studio 2010\Projects\Admision\Admision\bin\Admision.dll
+c:\users\uhgo\documents\visual studio 2010\Projects\Admision\Admision\bin\Admision.pdb
+c:\users\uhgo\documents\visual studio 2010\Projects\Admision\Admision\bin\Telerik.Web.Mvc.dll
+c:\users\uhgo\documents\visual studio 2010\Projects\Admision\Admision\bin\Telerik.Web.Mvc.xml
+c:\users\uhgo\documents\visual studio 2010\Projects\Admision\Admision\obj\Debug\Admision.dll
+c:\users\uhgo\documents\visual studio 2010\Projects\Admision\Admision\obj\Debug\Admision.pdb
+C:\Users\UHGO\documents\visual studio 2010\Projects\Admision\Admision\obj\Debug\Admision.csprojResolveAssemblyReference.cache
