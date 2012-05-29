@@ -1,0 +1,147 @@
+﻿@model IEnumerable<Admision.Models.PersonalMedico>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            ApellidoPaterno
+        </th>
+        <th>
+            ApellidoMAterno
+        </th>
+        <th>
+            Nombres
+        </th>
+        <th>
+            TIPODOCUMENTOID
+        </th>
+        <th>
+            NumeroDocumentoID
+        </th>
+        <th>
+            EspecialidadID
+        </th>
+        <th>
+            NumeroCMP
+        </th>
+        <th>
+            FechaNacimiento
+        </th>
+        <th>
+            EstadoCivil
+        </th>
+        <th>
+            Direccion
+        </th>
+        <th>
+            TelefonoFijo
+        </th>
+        <th>
+            MovilMovistar
+        </th>
+        <th>
+            RPM
+        </th>
+        <th>
+            MovilClaro
+        </th>
+        <th>
+            RPC
+        </th>
+        <th>
+            Estado
+        </th>
+        <th>
+            FechaRegistro
+        </th>
+        <th>
+            UsuarioRegistro
+        </th>
+        <th>
+            FechaModificacion
+        </th>
+        <th>
+            UsuarioModificacion
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ApellidoPaterno)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ApellidoMAterno)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombres)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TIPODOCUMENTOID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumeroDocumentoID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EspecialidadID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumeroCMP)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaNacimiento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstadoCivil)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Direccion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TelefonoFijo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MovilMovistar)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RPM)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MovilClaro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RPC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Estado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaRegistro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UsuarioRegistro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaModificacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UsuarioModificacion)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>
