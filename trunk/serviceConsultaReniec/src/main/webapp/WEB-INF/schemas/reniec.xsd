@@ -22,10 +22,17 @@
 		</complexType>
 	</element>
 
-	<complexType name="RespuestaType">
-		<attribute name="nombre" type="string"/>
-		<attribute name="apellido" type="string"/>
-		<attribute name="ciudad" type="string"/>
+	<complexType name="RespuestaType">
+
+		<attribute name="dni" type="string"></attribute>
+		<attribute name="nombre" type="string" />
+		<attribute name="apellidoPaterno" type="string" />
+
+		<attribute name="apellidoMaterno" type="string" />
+
+		<attribute name="fechaNacimiento" type="string"></attribute>
+		<attribute name="direccion" type="string"></attribute>
+		<attribute name="estadoCivil" type="string"></attribute>
 	</complexType>
 
 
