@@ -13,12 +13,19 @@ namespace Admision.Controllers
     {
         private Clinica db = new Clinica();
 
+        public ViewResult ConsultaReniec()
+        {
+
+            return View();
+        }
+
         //
         // GET: /Paciente/
 
         public ViewResult Index()
         {
             return View(db.Pacientes.ToList());
+            
         }
 
         //
