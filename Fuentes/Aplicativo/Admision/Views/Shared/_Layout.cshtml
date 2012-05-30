@@ -9,13 +9,13 @@
 	<div class="page">
 		<header>
 			<div id="title">
-				<h1>My MVC Application</h1>
+				<h1>Grupo ESB - Curso DSD - Admisión Médica</h1>
 			</div>
 
 			@(Html.Telerik().Menu()
 					.Name("menu")
 					.Items(menu => {
-						menu.Add().Text("Home").Action("Index", "Home");
+						menu.Add().Text("Log In").Action("Index", "Paciente");
 						menu.Add().Text("About").Action("About", "Home");
 					}))
 		</header>

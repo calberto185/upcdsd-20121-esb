@@ -1,10 +1,9 @@
 ﻿@model Admision.Models.LogOnModel
 
 @{
-    ViewBag.Title = "";
+    ViewBag.Title = "Inicio de Sesión";
 }
 
-<h2>LogIn</h2>
 
 <script src="~/Scripts/jquery.validate.min.js" 
 type="text/javascript"></script>
@@ -27,14 +26,14 @@ rel="Stylesheet" type="text/css" />
     </div>
 
     <center>
-        @Html.ValidationSummary(true, "Login was unsuccessful. Please correct the errorsand try again.")
+        @Html.ValidationSummary(true, "No se ha podido iniciar sesión correctamente, por favor revisar y volver a intentar")
     </center>
 
     @using (Html.BeginForm())
     {
         <div>
             <fieldset>
-                <legend>Account Information</legend>
+                <legend>Información de cuenta</legend>
 
                 <div class="editor-label">
                     @Html.LabelFor(m => m.Usuario)
@@ -55,7 +54,8 @@ rel="Stylesheet" type="text/css" />
                 </div>
 
                 <p>
-                    <input type="submit" value="Log On" />
+                   @Html.ActionLink("Acceder","ConsultaReniec","Paciente")
+                    
                 </p>
             </fieldset>
         </div>
