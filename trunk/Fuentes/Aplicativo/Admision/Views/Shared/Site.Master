@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Sistema de Admisión Hospitalaria</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/base.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/home.js"></script>
+    <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+   
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div class="page">
+    <div class="login">
+        <div class="header">
+            <div style="width: 100px; float: left; margin:20px 25px 10px 25px">
+                <asp:Image ID="imgLogo" runat="server" ImageUrl="~/Images/pwc_logo.gif" />
+            </div>
+            <div class="leftAlign" style="margin-top: 20px">
+                <span class="titlestylei">Sistema de Admisión Hospitalaria</span>
+                <div class="loginDisplay" style="margin-top:10px">
+                    <span class="textBurgundy">Bienvenido :</span><br />
+                    <asp:Label ID="lblUser" runat="server" CssClass="textBlack" Text=""></asp:Label><br />
+                    <asp:LinkButton ID="lnkLogout" CssClass="textGray" runat="server" >Cerrar sesión</asp:LinkButton>
+                </div>
+            </div>
+            <div class="date textBlack">
+                <asp:Label ID="lblCurrentDate" runat="server" Text=""></asp:Label>
+            </div>
+            <div class="clear separator"></div>
+        </div>
+        
+        
+            <div class="leftNav">
+                <br />
+                <div class="separator"></div>
+                <asp:TreeView ID="tvwNav" runat="server" NodeWrap="True" ExpandDepth="0" EnableViewState="false" Width="220px" ShowExpandCollapse="False" BackColor="#e5e2db" NodeIndent="20">
+                    <HoverNodeStyle CssClass="tvwHover"/>
+                    <NodeStyle CssClass="tvwNode" />
+                    <SelectedNodeStyle CssClass="tvwSelected" />
+                </asp:TreeView>
+            </div>
+            <div class="main">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+      
+        <div class="clear separatorGray">
+        </div>
+        <div class="footer">
+            <center>
+                  ©
+            <%=DateTime.Now.Year%> UPC - Diseño de Sistemas Distribuidos 20121 M1 - Grupo ESB.
+            </center>
+          
+        </div>
+    
+    </div>
+    </form>
+</body>
+</html>

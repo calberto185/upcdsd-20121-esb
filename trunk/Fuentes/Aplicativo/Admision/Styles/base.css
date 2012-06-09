@@ -1,0 +1,282 @@
+﻿/*Modal Popup*/
+
+/*******************************estilos*************************************/
+body
+{
+	font-family:Georgia;
+}
+.textBox
+{
+	/*border:solid 1px #a32020;*/
+	font-size:8pt;
+	font-family:Georgia;
+}
+
+.textBoxMaroon
+{
+	border:solid 1px #a32020;
+	font-size:8pt;
+	font-family:Georgia;
+}
+
+.border
+{
+	border:solid 2px #602320;
+	font-size:7pt;
+	font-family:Georgia;
+}
+
+.textBlack
+{
+	color:#000000;
+	font-family:Georgia;
+	font-size:9pt;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.textBurgundy
+{
+	color:#a32020;
+	font-family:Georgia;
+	font-size:8pt;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.textMaroon
+{
+	color:#602320;
+	font-family:Georgia;
+	font-size:8pt;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.title
+{
+	font-size: 14pt; 
+	color: #602320; 
+	font-family: Georgia; 
+	height: 1px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.textGray
+{
+	color:#939598;
+	font-family:Georgia;
+	font-size:9pt;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.textGray80
+{
+	color:#58585a;
+	font-family:Georgia;
+	font-size:9pt;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.divLine
+{
+	height: 4px; 
+	width: 100%; 
+	background-color: #a32020;
+}
+.footerText
+{
+	font-size: 11px;
+	font-weight: normal;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	width: 750px;
+	color: #602320;
+	font-family: Georgia;
+	text-decoration:none;
+	text-align:left;
+}
+
+.treeView
+{
+	color: #6d6e71; 
+	background-color: #e7e7e8;
+	font-family:Georgia;
+	font-size:8pt;
+}
+
+.button
+{
+	border-style:none;
+	background-color:#602320;
+	font-family:Georgia;
+	font-style:italic;
+	font-weight:bold;
+	font-size:8pt;
+	color:White;
+	}
+
+.button2
+{
+	background-color:#e7e7e8;
+	border-color:#602320;
+	font-family:Georgia;
+	font-weight:bold;
+	font-size:8pt;
+	color:#602320;
+	Width:115px;
+	height:22px;
+    margin-left: 0px;
+}
+
+hr
+{
+	font-size: 5px; 
+	color: #e7e7e8; 
+	height: 5px; 
+	border-top-style: none;
+	border-right-style: none; 
+	border-left-style: none; 
+	border-bottom-style: none; 
+	background-color: #e7e7e8; 
+}
+
+.tableHeader 
+{
+	font-style:italic;
+	font-weight:bold;
+    padding: 4px 2px;    
+    color: white;    
+    background: #602320;    
+    border-left: solid 1px #602320;    
+    font-family: Georgia;
+    font-size:x-small;   
+}
+
+.table
+{
+	border-left-color: #602320; 
+	border-bottom-color: #602320; 
+	border-top-style: outset; 
+	border-top-color: #602320; 
+	border-right-style: outset; 
+	border-left-style: outset; 
+	border-right-color: #602320; 
+	border-bottom-style: outset; 
+	width: 922px;
+	font-family:Georgia;
+	color:#602320;
+}
+
+.modalPopup {
+	background-color:#d7c8c7;
+	border-width:3px;
+	border-style:solid;
+	border-color:#58585a;
+	padding:3px;
+	width:250px;
+}
+/********************************mGrid************************************/
+
+.mGrid {    
+    width: 100%;    
+    background-color: White;    
+    margin: 5px 0 10px 0;    
+    border: solid 1px #a32020;    
+    border-collapse:collapse;
+    font-family:Georgia;
+    font-size:x-small; 
+}   
+.mGrid td {    
+    padding: 2px;    
+    border: solid 1px #e7e7e8;    
+    color: #717171;  
+    font-family: Georgia;  
+    font-size:x-small;  
+}   
+.mGrid th {
+	
+	font-style:italic;
+	font-weight:bold;
+    padding: 4px 2px;    
+    color: white;    
+    background: #602320;    
+    border-left: solid 1px #602320;    
+    font-family: Georgia;
+    font-size:x-small;    
+}   
+.mGrid .alt { background-color:#d7c8c7; font-family: Georgia; font-size:x-small;  }   
+.mGrid .pgr { background-color:White; font-family: Georgia; font-size:x-small;  }   
+.mGrid .pgr table { margin: 5px 0; font-family: Georgia; font-size:x-small;  }   
+.mGrid .pgr td {    
+    border-width: 0;    
+    padding: 0 6px;    
+    border-left: solid 1px #666;    
+    font-weight: bold;    
+    color: #fff;    
+    line-height: 12px;   
+    font-family: Georgia; 
+    font-size:x-small;  
+ }      
+.mGrid .link { color:#602320; font-family: Georgia; font-size:x-small;  }
+.mGrid .pgr a { color: #602320; text-decoration: none; font-family: Georgia; font-size:x-small;}   
+.mGrid .pgr a:hover { color: #602320; text-decoration: none; font-family: Georgia; font-size:x-small;  }  
+.mGrid a
+{
+	color: white;
+	text-decoration: none;
+	font-size:x-small;  
+	font-family: Georgia;
+}
+
+/*******
+.ajax__tab_header: The heading section of your tabs and also the font that appears in your tabs. 
+.ajax__tab_outer: The outside edges of any non-selected tabs. 
+.ajax__tab_inner: The inside of the non-selected tabs. 
+.ajax__tab_hover: What the tab (either selected or not) look like when the most is over them. 
+.ajax__tab_active .ajax__tab_outer: The outside edges of the selected tab. 
+.ajax__tab_active .ajax__tab_inner: The inside of the selected tab. 
+********/
+
+.NewsTab .ajax__tab_header 
+{
+    color: #aa976b;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: White;
+    margin-left: 10px;
+}
+.NewsTab .ajax__tab_outer
+{
+    background-color: White;
+}
+.NewsTab .ajax__tab_inner
+{
+    padding: 6px;
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: #f8f6ea;
+}
+.NewsTab .ajax__tab_hover .ajax__tab_outer
+{
+    background-color: Orange;
+}
+.NewsTab .ajax__tab_hover .ajax__tab_inner
+{
+    background-color: #FFFFE1;
+}
+.NewsTab .ajax__tab_active .ajax__tab_outer
+{
+    background-color: White;
+}
+.NewsTab .ajax__tab_active .ajax__tab_inner
+{
+    background-color: #fefdf7;
+}

@@ -1,0 +1,9 @@
+C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision\bin\Admision.dll
+C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision\bin\Admision.pdb
+C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision\bin\AjaxControlToolkit.dll
+C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision\bin\EntityFramework.dll
+C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision\bin\EntityFramework.xml
+C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision\obj\Debug\Admision.dll.licenses
+C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision\obj\Debug\Admision.dll
+C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision\obj\Debug\Admision.pdb
+C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision\obj\Debug\Admision.csprojResolveAssemblyReference.cache
