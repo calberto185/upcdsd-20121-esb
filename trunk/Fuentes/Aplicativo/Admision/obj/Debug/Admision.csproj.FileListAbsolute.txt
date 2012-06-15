@@ -7,3 +7,11 @@ C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision\ob
 C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision\obj\Debug\Admision.dll
 C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision\obj\Debug\Admision.pdb
 C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision\obj\Debug\Admision.csprojResolveAssemblyReference.cache
+E:\UPC\workspace\Aplicativo\Admision\bin\Admision.dll
+E:\UPC\workspace\Aplicativo\Admision\bin\Admision.pdb
+E:\UPC\workspace\Aplicativo\Admision\bin\EntityFramework.dll
+E:\UPC\workspace\Aplicativo\Admision\bin\EntityFramework.xml
+E:\UPC\workspace\Aplicativo\Admision\obj\Debug\ResolveAssemblyReference.cache
+E:\UPC\workspace\Aplicativo\Admision\obj\Debug\Admision.dll.licenses
+E:\UPC\workspace\Aplicativo\Admision\obj\Debug\Admision.dll
+E:\UPC\workspace\Aplicativo\Admision\obj\Debug\Admision.pdb

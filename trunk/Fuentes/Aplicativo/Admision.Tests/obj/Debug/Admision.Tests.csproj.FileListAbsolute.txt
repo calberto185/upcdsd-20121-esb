@@ -6,3 +6,11 @@ C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision.Te
 C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision.Tests\obj\Debug\Admision.Tests.csprojResolveAssemblyReference.cache
 C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision.Tests\obj\Debug\Admision.Tests.dll
 C:\Users\UHGO\Documents\Visual Studio 2010\Projects\TrabajoDSDESBAsp\Admision.Tests\obj\Debug\Admision.Tests.pdb
+E:\UPC\workspace\Aplicativo\Admision.Tests\bin\Debug\Admision.Tests.dll.config
+E:\UPC\workspace\Aplicativo\Admision.Tests\bin\Debug\Admision.Tests.dll
+E:\UPC\workspace\Aplicativo\Admision.Tests\bin\Debug\Admision.Tests.pdb
+E:\UPC\workspace\Aplicativo\Admision.Tests\bin\Debug\Admision.dll
+E:\UPC\workspace\Aplicativo\Admision.Tests\bin\Debug\Admision.pdb
+E:\UPC\workspace\Aplicativo\Admision.Tests\obj\Debug\ResolveAssemblyReference.cache
+E:\UPC\workspace\Aplicativo\Admision.Tests\obj\Debug\Admision.Tests.dll
+E:\UPC\workspace\Aplicativo\Admision.Tests\obj\Debug\Admision.Tests.pdb
