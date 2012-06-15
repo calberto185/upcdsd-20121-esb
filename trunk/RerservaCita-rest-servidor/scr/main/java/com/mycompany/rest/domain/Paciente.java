@@ -2,22 +2,24 @@ package com.mycompany.rest.domain;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name="Paciente")
+@XmlRootElement(name="paciente")
 
 public class Paciente {
 
-	private Long CodPaciente;
+	private Long Id;
 	private String NomPaciente;
 	private String ApelPaciente;
 	private String CorreoPaciente;
 	private String CelularPaciente;
 	private String DirPaciente;
 	private String FNacPaciente;
-	public Long getCodPaciente() {
-		return CodPaciente;
+	private String DNI;
+	private String TelefonoFijo;
+	public Long getId() {
+		return Id;
 	}
-	public void setCodPaciente(Long codPaciente) {
-		CodPaciente = codPaciente;
+	public void setId(Long id) {
+		Id = id;
 	}
 	public String getNomPaciente() {
 		return NomPaciente;
@@ -55,13 +57,26 @@ public class Paciente {
 	public void setFNacPaciente(String fNacPaciente) {
 		FNacPaciente = fNacPaciente;
 	}
+	public String getDNI() {
+		return DNI;
+	}
+	public void setDNI(String dNI) {
+		DNI = dNI;
+	}
+	public String getTelefonoFijo() {
+		return TelefonoFijo;
+	}
+	public void setTelefonoFijo(String telefonoFijo) {
+		TelefonoFijo = telefonoFijo;
+	}
 	@Override
 	public String toString() {
-		return "Paciente [CodPaciente=" + CodPaciente + ", NomPaciente="
-				+ NomPaciente + ", ApelPaciente=" + ApelPaciente
-				+ ", CorreoPaciente=" + CorreoPaciente + ", CelularPaciente="
-				+ CelularPaciente + ", DirPaciente=" + DirPaciente
-				+ ", FNacPaciente=" + FNacPaciente + "]";
+		return "Paciente [Id=" + Id + ", NomPaciente=" + NomPaciente
+				+ ", ApelPaciente=" + ApelPaciente + ", CorreoPaciente="
+				+ CorreoPaciente + ", CelularPaciente=" + CelularPaciente
+				+ ", DirPaciente=" + DirPaciente + ", FNacPaciente="
+				+ FNacPaciente + ", DNI=" + DNI + ", TelefonoFijo="
+				+ TelefonoFijo + "]";
 	}
 	
 	
