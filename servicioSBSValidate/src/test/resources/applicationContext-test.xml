@@ -7,6 +7,6 @@
 	<!-- Configuración para el test de integración -->
 	<jaxws:client id="ValidaClient"
 		serviceClass="pe.sbs.Valida"
-		address="http://localhost:18080/servicioSBSValidate/valida" />
+		address="http://192.168.1.37:18080/servicioSBSValidate/valida" />
 
 </beans>
