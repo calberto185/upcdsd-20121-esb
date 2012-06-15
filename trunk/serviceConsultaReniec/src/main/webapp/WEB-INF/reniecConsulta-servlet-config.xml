@@ -14,7 +14,7 @@
             <bean class="org.springframework.ws.wsdl.wsdl11.builder.XsdBasedSoap11Wsdl4jDefinitionBuilder">
                 <property name="schema" value="/WEB-INF/schemas/reniec.xsd"/>
                 <property name="portTypeName" value="Reniec"/>
-                <property name="locationUri" value="http://localhost:18080/serviceConsultaReniec/reco"/>
+                <property name="locationUri" value="http://192.168.1.37:18080/serviceConsultaReniec/reco"/>
             </bean>
         </property>
     </bean>
@@ -23,6 +23,6 @@
     	<constructor-arg ref="reniecConsulta"/>
     </bean>
     
-    <bean id="reniecConsulta" class="reniec.ws.ReniecService"/>
+    <bean id="reniecConsulta" class="reniec.internal.ReniecConsultaImpl"/>
 
 </beans>
