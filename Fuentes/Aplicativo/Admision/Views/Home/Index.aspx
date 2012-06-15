@@ -30,6 +30,45 @@
     {
 
     }
+
+
+    protected void ASPxButton1_Click(object sender, EventArgs e)
+    {
+        Admision.WSReniec.ReniecService servicio = new Admision.WSReniec.ReniecService();
+
+        Admision.WSReniec.dniRequest dniRequest = new Admision.WSReniec.dniRequest();
+        Admision.WSReniec.DniType dniType = new Admision.WSReniec.DniType();
+        dniType.dni = txtdni.Text;
+
+        dniRequest.dni = dniType;
+
+        String strTramaXML = servicio.dni(dniRequest);
+
+        System.Xml.XmlDocument xmlDocumento = new System.Xml.XmlDocument();
+        System.Xml.XmlNodeList xmlListaNodoTrama;
+        xmlDocumento.LoadXml(strTramaXML);
+
+        xmlListaNodoTrama = xmlDocumento.GetElementsByTagName("Root");
+
+        Admision.Models.Persona persona = new Admision.Models.Persona();
+        System.Xml.XmlNode nodo = xmlListaNodoTrama.Item(0);
+        System.Xml.XmlElement xmlSubElement = nodo["Root"];
+
+        persona.Nombre = xmlListaNodoTrama[0]["nombre"].InnerText;
+        persona.ApellidoPaterno = xmlListaNodoTrama[0]["apellidoPaterno"].InnerText;
+        persona.ApellidoMaterno = xmlListaNodoTrama[0]["apellidoMaterno"].InnerText;
+        persona.Dni = xmlListaNodoTrama[0]["dni"].InnerText;
+        persona.Direccion = xmlListaNodoTrama[0]["direccion"].InnerText;
+        persona.FechaNacimiento = xmlListaNodoTrama[0]["fechaNacimiento"].InnerText;
+        persona.EstadoCivil = xmlListaNodoTrama[0]["estadoCivil"].InnerText;
+
+        this.txtdni.Text = persona.Dni;
+        this.txtAPellidoPaterno.Text = persona.ApellidoPaterno;
+        this.txtApellidoMaterno.Text = persona.ApellidoMaterno;
+        this.txtDireccion.Text = persona.Direccion;
+        this.txtFechaNacimiento.Text = persona.FechaNacimiento;
+        
+    }
 </script>
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
    
@@ -127,7 +166,9 @@
                                           </dx:ASPxTextBox>
                                            
                                       </td>
-                                      <td class="style34"><dx:ASPxButton ID="ASPxButton1" runat="server" Text="Buscar" ToolTip="Buscar DNI ..." CssClass="button" Width="60px" Height="10px"></dx:ASPxButton></td>
+                                      <td class="style34"><dx:ASPxButton ID="ASPxButton1" runat="server" Text="Buscar" 
+                                              ToolTip="Buscar DNI ..." CssClass="button" Width="60px" Height="10px" 
+                                              OnClick="ASPxButton1_Click"></dx:ASPxButton></td>
                                       <td class="style36">
                                           <dx:ASPxLabel ID="lblFechaNacimiento" runat="server" ClientIDMode="AutoID" 
                                               Text="Fecha Nacimiento:">
