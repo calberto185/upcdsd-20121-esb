@@ -14,26 +14,14 @@
 		<attribute name="dni" type="string"/>
 	</complexType>
 
-	<element name="dniResponse">
-		<complexType>
-			<sequence>
-				<element name="respuesta" type="reniec:RespuestaType"/>
-			</sequence>
-		</complexType>
+	<element name="dniResponse" type="reniec:respuesta">
+
 	</element>
 
-	<complexType name="RespuestaType">
-
-		<attribute name="dni" type="string"></attribute>
-		<attribute name="nombre" type="string" />
-		<attribute name="apellidoPaterno" type="string" />
-
-		<attribute name="apellidoMaterno" type="string" />
-
-		<attribute name="fechaNacimiento" type="string"></attribute>
-		<attribute name="direccion" type="string"></attribute>
-		<attribute name="estadoCivil" type="string"></attribute>
-	</complexType>
 
 
+
+	<simpleType name="respuesta">
+		<restriction base="string"></restriction>
+	</simpleType>
 </schema>
