@@ -1,36 +1,35 @@
-package com.mycompany.rest.domain;
+package pe.com.clinicaesb.rest.domain;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name="especialidad")
 public class Especialidad {
 
-	private Long CodEspecilidad;
-	private String Descripcion;
-	private String Estado;
+	private Long codEspecilidad;
+	private String descripcion;
+	private String estado;
 	public Long getCodEspecilidad() {
-		return CodEspecilidad;
+		return codEspecilidad;
 	}
 	public void setCodEspecilidad(Long codEspecilidad) {
-		CodEspecilidad = codEspecilidad;
+		this.codEspecilidad = codEspecilidad;
 	}
 	public String getDescripcion() {
-		return Descripcion;
+		return descripcion;
 	}
 	public void setDescripcion(String descripcion) {
-		Descripcion = descripcion;
+		this.descripcion = descripcion;
 	}
 	public String getEstado() {
-		return Estado;
+		return estado;
 	}
 	public void setEstado(String estado) {
-		Estado = estado;
+		this.estado = estado;
 	}
 	@Override
 	public String toString() {
-		return "Especialidad [CodEspecilidad=" + CodEspecilidad
-				+ ", Descripcion=" + Descripcion + ", Estado=" + Estado + "]";
+		return "Especialidad [codEspecilidad=" + codEspecilidad
+				+ ", descripcion=" + descripcion + ", estado=" + estado + "]";
 	}
-	
 	
 }
