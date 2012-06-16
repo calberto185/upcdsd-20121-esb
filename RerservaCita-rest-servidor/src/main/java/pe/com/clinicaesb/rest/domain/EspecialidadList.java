@@ -1,10 +1,10 @@
-package com.mycompany.rest.domain;
+package pe.com.clinicaesb.rest.domain;
 
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-	@XmlRootElement(name="especialidads")
+	@XmlRootElement(name="especialidades")
 	public class EspecialidadList {
 
 		private List<Especialidad> data;
