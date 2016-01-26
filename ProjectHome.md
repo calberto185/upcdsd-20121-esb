@@ -1,0 +1,1 @@
+Permite el registro de pacientes realizando consulta de informacion mediante la Reniec utilizando Web Services SOAP, asimismo la busqueda sensitiva de datos a travez de Web Services Rest y el uso de mensajería.
